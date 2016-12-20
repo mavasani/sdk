@@ -3,8 +3,8 @@ use vs
 package name=PreEmptive.Solutions.Dotfuscator.CE
         version=$(Version)
         vs.package.type=vsix
-        vs.package.vsixId=PreEmptive.Solutions.Dotfuscator.CE,version=5.27.0.4679
-        vs.package.installSize=18600
+        vs.package.vsixId=PreEmptive.Solutions.Dotfuscator.CE
+        vs.package.installSize=7072292
 
 vs.localizedResources
   vs.localizedResource language=en-us
