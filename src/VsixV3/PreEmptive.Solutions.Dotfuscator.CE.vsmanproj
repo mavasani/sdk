@@ -20,7 +20,7 @@
   </Target>
 
   <ItemGroup>
-    <MergeManifest Include="Dotfuscator\PreEmptive.Solutions.Dotfuscator.CE.json" />
+    <MergeManifest Include="$(OutputPath)\PreEmptive.Solutions.Dotfuscator.CE.json" />
   </ItemGroup>
 
   <Target Name="ValidateManifest" />

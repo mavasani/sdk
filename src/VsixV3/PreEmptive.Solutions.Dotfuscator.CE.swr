@@ -12,7 +12,7 @@ vs.localizedResources
                        description="PreEmptive Solutions Dotfuscator CE"
 
 vs.payloads
-  vs.payload source=https://vsdrop.corp.microsoft.com/file/v1/Products/External/Dotfuscator/201612191759;DotfuscatorCE.vsix
+  vs.payload source=$(OutputPath)\Dotfuscator.vsix
 
 # Needed so VSIXInstaller is around on uninstall
 vs.dependencies
